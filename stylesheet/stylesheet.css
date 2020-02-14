@@ -24,8 +24,9 @@ h1 {
   font-family: 'Arial', sans-serif;
   font-size: 13px;
   font-weight: bold;
-  padding-left: 13rem;
   vertical-align: text-bottom;
+  padding: 2rem;
+  margin: 2rem;
 }
 
 aside {
@@ -43,7 +44,7 @@ aside {
   font-size: 13px;
   color: #2c9ab7;
   padding-top: 1rem;
-  padding-left: 13rem;
+  padding-left: 10rem;
   line-height: 30px;
 }
 
@@ -52,14 +53,14 @@ aside {
   font-family:'Helvetica', Arial, sans-serif;
   font-size: 14px;
   padding-top: 1rem;
-  padding-left: 13rem;
+  padding-left: 10rem;
 }
 
 .first-article-text {
   width: 75%;
   font-family:'Helvetica', Arial, sans-serif;
   font-size: 13px;
-  padding-left: 13rem;
+  padding-left: 10rem;
   padding-bottom: 1rem;
   line-height: 24px;
   word-spacing: 3px;
@@ -69,7 +70,7 @@ aside {
   width: 75%;
   font-family:'Helvetica', Arial, sans-serif;
   font-size: 13px;
-  padding-left: 13rem;
+  padding-left: 10rem;
   padding-bottom: 2rem;
   line-height: 24px;
   word-spacing: 3px;
@@ -80,7 +81,7 @@ aside {
   font-family:'Helvetica', Arial, sans-serif;
   font-size: 18px;
   font-weight: 100;
-  padding-left: 13rem;
+  padding-left: 10rem;
   color: #2c9ab7;
   line-height: 30px;
 }
@@ -204,4 +205,13 @@ section {
   font-family:'Helvetica', Arial, sans-serif;
   font-size: 24px;
   color: #2c9ab7;
+}
+
+.sr-only{
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
